@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://white-lake-5381.animaapp.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 9999;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style><style id="st_globalStyles">
+/* SCROLLBAR */
+
+[dark-scroll]::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+[dark-scroll]::-webkit-scrollbar-track-piece {
+  background-color: #2b2b2b;
+  border: 1px solid #1d1d1d;
+}
+
+[dark-scroll]::-webkit-scrollbar-thumb {
+  height: 10px;
+  background-color: #4d4d4d;
+}
+[dark-scroll]::-webkit-scrollbar-thumb:hover {
+  background-color: #5a5a5a;
+}
+
+/* LOAD PROGRESS */
+
+.turbolinks-progress-bar {
+  height: 3px;
+  background-color: #ff6250;
+}
+
+/* GROUPING */
+
+[data-id].ui-selecting {
+  box-shadow: inset 0 0 0 1px #4285f4 !important;
+}
+[data-id].ui-selected {
+  box-shadow: inset 0 0 0 1px #4285f4 !important;
+}
+
+/* CURSOR */
+
+body[mode='comments'] * {
+  cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjkxNjQ4IDIzLjQxMDlDNS40OTE1MyAyMi45ODg3IDUuOTMxNzkgMjIuMzkzNSA2LjIzMjggMjEuNjQwN0M0Ljc5MDY5IDE5LjczODMgNCAxNy4zOTMzIDQgMTQuOTk3NUM0IDguOTM0MSA4LjkzMjgyIDQgMTUuMDAyMiA0QzIxLjA3MTcgNCAyNiA4LjkzOTE5IDI2IDE1LjAwMjVDMjYgMjEuMDY1OSAyMS4wNjcyIDI2IDE0Ljk5NzggMjZDMTIuOTg5NiAyNiAxMS4wMzUzIDI1LjQ1NTcgOS4zMjM2NyAyNC40MjMxQzguNDI5NjUgMjQuOTU3MiA3LjQxNDM0IDI1LjIyNjggNi4zMDAxOCAyNS4yMjY4QzUuOTU0MjYgMjUuMjI2OCA1LjU5OTM1IDI1LjIwMTQgNS4yNTM0MiAyNS4xNDU0QzQuOTAzIDI1LjA4OTUgNC42Mjg5NiAyNC44MDQ2IDQuNTUyNTggMjQuNDE4QzQuNDc2MjEgMjQuMDI2NCA0LjYxOTk3IDIzLjYyOTYgNC45MTY0OCAyMy40MTA5WiIgZmlsbD0iI0ZGNjI1MCIvPgo8L3N2Zz4K')
+      0 24,
+    auto !important;
+}
+
+body[mode='code'] [data-id]:not(.hidden) {
+  cursor: default;
+}
+
+/* default node state */
+
+body[mode='code'] [data-id]:not(.hidden), body[mode='comments'] [data-id]:not(.hidden) {
+  pointer-events: all;
+}
+
+/* is_image */
+
+body[mode='code'] [data-id].is_image [data-id], body[mode='comments'] [data-id].is_image [data-id] {
+  pointer-events: none !important;
+}
+
+/* without a data-id or ignored */
+
+[data-id].ignore,body[mode='code'] *:not([data-id]) {
+  pointer-events: none !important;
+}
+/* disable transforms for ignored elements */
+
+
+body[mode='code'] [data-id]:hover{
+  transform: none !important;
+}
+
+</style><meta name="viewport" content="width=1300, maximum-scale=1.0"><link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png"><meta name="og:type" content="website"><meta name="twitter:card" content="photo"><script id="anima-hotspots-script" src="./white-lake-5381.animaapp.io_files/hotspots.js.download"></script><style id="hotspots-styles">
+    .hotspot {
+      position: absolute;
+      border: 1px solid #2a9fd8;
+      background: rgba(0, 173, 255, 0.54);
+      opacity: 0;
+      z-index: -1;
+      pointer-events:none;
+    }
+  </style><style id="hide-styles">
+    .hotspot {
+      display:none !important;
+    }
+  </style><script id="s_turbo" src="./white-lake-5381.animaapp.io_files/turbo.es2017-umd.js.download"></script><script id="anima-overrides-script" src="./white-lake-5381.animaapp.io_files/overrides.js.download"></script><script src="./white-lake-5381.animaapp.io_files/timeline.js.download"></script><style>
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/646df9c3966149ee6067cea0.646df9c518b39ef8a80053d6.PZmxeF0.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --black: #000000;
+  --black-2: #00000073;
+  --jordy-blue: #77baf3;
+  --picton-blue: #3fa2f6;
+  --tundora: #494444;
+ 
+  --font-size-l: 25px;
+  --font-size-m: 22px;
+  --font-size-xl: 28px;
+  --font-size-xxl: 35px;
+  --font-size-xxxl: 52px;
+  --font-size-xxxxl: 58px;
+  --font-size-xxxxxl: 60px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-picton-blue-30px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-inter);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-black-22px {
+  color: var(--black-2);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-black-35px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-tundora-27px {
+  color: var(--tundora);
+  font-family: var(--font-family-inter);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+}
+
+
+/* screen - frame-10 */
+
+.frame-10 {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(219.59217756986618, 236.10282361507416, 250.96250385046005) 10.524938255548477%, rgba(219.0000021457672, 230.00000149011612, 235.0000011920929, 0) 100%);
+  background-color: rgba(255,255,255,1.0);
+  border: 1px none;
+  height: 2298px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1300px;
+}
+
+.frame-10 .nav-mR8G8t {
+  background-color: transparent;
+  height: 67px;
+  left: 47px;
+  position: absolute;
+  top: 35px;
+  width: 1253px;
+}
+
+.frame-10 .group-1-981o01 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 38px;
+  left: 0px;
+  pointer-events: auto;
+  position: absolute;
+  top: 14px;
+  transition: all 0.2s ease;
+  width: 247px;
+}
+
+.frame-10 .group-1-981o01:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .healthcare-D2GPhm {
+  background-color: transparent;
+  color: var(--picton-blue);
+  cursor: pointer;
+  font-family: var(--font-family-inter);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 245px;
+}
+
+.frame-10 .healthcare-D2GPhm:hover {
+}
+
+.frame-10 .group-2-981o01 {
+  background-color: transparent;
+  height: 67px;
+  left: 399px;
+  position: absolute;
+  top: 0px;
+  width: 860px;
+}
+
+.frame-10 .home-JUy3Zc {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  transition: all 0.2s ease;
+  width: 182px;
+}
+
+.frame-10 .home-JUy3Zc:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .aboutus-JUy3Zc {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 182px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  transition: all 0.2s ease;
+  width: 206px;
+}
+
+.frame-10 .aboutus-JUy3Zc:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .contactus-JUy3Zc {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 364px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  transition: all 0.2s ease;
+  width: 235px;
+}
+
+.frame-10 .contactus-JUy3Zc:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .group-3-JUy3Zc {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 67px;
+  left: 614px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 242px;
+}
+
+.frame-10 .group-3-JUy3Zc.animate-enter {
+  animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+}
+
+@keyframes animate-enter-frames {
+  from{}
+to{}
+}
+
+.frame-10 .group-3-JUy3Zc:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .rectangle-9-kO7mag {
+  background-color: #43a1f2;
+  border-radius: 25px;
+  height: 67px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 231px;
+}
+
+.frame-10 .get-started-kO7mag {
+  background-color: transparent;
+  color: #f6fbfe;
+  font-family: var(--font-family-inter);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 20px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  white-space: nowrap;
+  width: 220px;
+}
+
+.frame-10 .banner-mR8G8t {
+  background-color: transparent;
+  height: 643px;
+  left: 17px;
+  position: absolute;
+  top: 307px;
+  width: 688px;
+}
+
+.frame-10 .group-4-xkK0Rp {
+  background-color: transparent;
+  height: 320px;
+  left: 30px;
+  position: absolute;
+  top: 0px;
+  width: 658px;
+}
+
+.frame-10 .text-A3hgcW {
+  background-color: transparent;
+  height: 320px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 662px;
+}
+
+.frame-10 .join-us-and-take-car-ElisHT {
+  background-color: transparent;
+  color: #000000ab;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 224px;
+  width: 567px;
+}
+
+.frame-10 .find-and-search-your-suitable-doctors-ElisHT {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 658px;
+}
+
+.frame-10 .span0-U3gdXF {
+  color: var(--black);
+  font-style: normal;
+}
+
+.frame-10 .span1-U3gdXF {
+  color: var(--picton-blue);
+  font-style: normal;
+}
+
+.frame-10 .group-9-xkK0Rp {
+  background-color: transparent;
+  height: 125px;
+  left: 0px;
+  position: absolute;
+  top: 518px;
+  width: 666px;
+}
+
+.frame-10 .form-background-Vay97N {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 125px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 666px;
+}
+
+.frame-10 .group-6-Vay97N {
+  background-color: transparent;
+  height: 67px;
+  left: 20px;
+  position: absolute;
+  top: 29px;
+  width: 621px;
+}
+
+.frame-10 .group-11-0m4nRL {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 67px;
+  left: 549px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transform: scale(1.1);
+  width: 70px;
+}
+
+.frame-10 .group-11-0m4nRL.animate-enter1 {
+  animation: animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.frame-10 .rectangle-15-cIjRO4 {
+  background-color: #43a1f2;
+  border-radius: 20px;
+  height: 67px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 70px;
+}
+
+.frame-10 .icon-search-cIjRO4 {
+  height: 50px;
+  left: 17px;
+  top: 9px;
+  width: 35px;
+}
+
+.frame-10 .rectangle-13-0m4nRL {
+  background-color: #efefef;
+  border-radius: 20px;
+  height: 67px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 225px;
+}
+
+.frame-10 .find-your-doctor-0m4nRL {
+  background-color: transparent;
+  border: 0;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: 30px;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 18px;
+  width: 195px;
+}
+
+.frame-10 .find-your-doctor-0m4nRL::placeholder {
+  color: #00000099;
+}
+
+.frame-10 .group-7-Vay97N {
+  background-color: transparent;
+  height: 67px;
+  left: 294px;
+  position: absolute;
+  top: 29px;
+  width: 227px;
+}
+
+.frame-10 .rectangle-14-9Ft513 {
+  background-color: #efefef;
+  border-radius: 20px;
+  height: 67px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 225px;
+}
+
+.frame-10 .select-area-9Ft513 {
+  background-color: transparent;
+  border: 0;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: 30px;
+  left: 54px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 19px;
+  width: 152px;
+}
+
+.frame-10 .select-area-9Ft513::placeholder {
+  color: #00000099;
+}
+
+.frame-10 .x3-easy-steps-and-get-your-solution-mR8G8t {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 375px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1237px;
+  width: 869px;
+}
+
+.frame-10 .group-12-mR8G8t {
+  background-color: transparent;
+  cursor: pointer;
+  height: 336px;
+  left: 13px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1368px;
+  transition: all 0.2s ease;
+  width: 446px;
+}
+
+.frame-10 .group-12-mR8G8t:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .group-13-E9jEuu {
+  background-color: transparent;
+  height: 165px;
+  left: 0px;
+  position: absolute;
+  top: 171px;
+  width: 450px;
+}
+
+.frame-10 .find-your-doctor-wit-sh3S5J {
+  left: 11px;
+  top: 74px;
+  width: 435px;
+}
+
+.frame-10 .find-best-doctors-sh3S5J {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 369px;
+}
+
+.frame-10 .group-14-E9jEuu {
+  background-color: transparent;
+  height: 126px;
+  left: 80px;
+  position: absolute;
+  top: 0px;
+  width: 119px;
+}
+
+.frame-10 .icon-search-xcDx8v {
+  height: 97px;
+  left: 19px;
+  top: 14px;
+  width: 81px;
+}
+
+.frame-10 .group-16-mR8G8t {
+  background-color: transparent;
+  cursor: pointer;
+  height: 126px;
+  left: 1048px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1368px;
+  transition: all 0.2s ease;
+  width: 119px;
+}
+
+.frame-10 .group-16-mR8G8t:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .icon-search-hqxO7x {
+  height: 97px;
+  left: 19px;
+  top: 14px;
+  width: 81px;
+}
+
+.frame-10 .group-13-mR8G8t {
+  background-color: transparent;
+  cursor: pointer;
+  height: 336px;
+  left: 406px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1368px;
+  transition: all 0.2s ease;
+  width: 550px;
+}
+
+.frame-10 .group-13-mR8G8t:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .group-15-nZ4bAn {
+  height: 336px;
+  width: 550px;
+}
+
+.frame-10 .group-13-Rd6GjL {
+  background-color: transparent;
+  height: 165px;
+  left: 0px;
+  position: absolute;
+  top: 171px;
+  width: 554px;
+}
+
+.frame-10 .find-your-doctor-wit-lCWl3L {
+  left: 0px;
+  top: 74px;
+  width: 550px;
+}
+
+.frame-10 .get-appointment-lCWl3L {
+  background-color: transparent;
+  height: auto;
+  left: 77px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 467px;
+}
+
+.frame-10 .group-14-Rd6GjL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 126px;
+  left: 156px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 119px;
+}
+
+.frame-10 .group-14-Rd6GjL:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .group-14-LExJ47 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 126px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 119px;
+}
+
+.frame-10 .group-14-LExJ47:hover {
+}
+
+.frame-10 .icon-calendar-sQRhCZ {
+  background-color: transparent;
+  height: 69px;
+  left: 17px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 28px;
+  width: 86px;
+}
+
+.frame-10 .group-14-mR8G8t {
+  background-color: transparent;
+  cursor: pointer;
+  height: 166px;
+  left: 892px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1538px;
+  transition: all 0.2s ease;
+  width: 427px;
+}
+
+.frame-10 .group-14-mR8G8t:hover {
+  transform: scale(1.1);
+}
+
+.frame-10 .group-15-uDA1GG {
+  height: 166px;
+  width: 427px;
+}
+
+.frame-10 .group-13-H9OIzq {
+  background-color: transparent;
+  height: 166px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 431px;
+}
+
+.frame-10 .find-your-doctor-wit-rNO8sa {
+  left: 0px;
+  top: 75px;
+  width: 427px;
+}
+
+.frame-10 .happy-consulting-rNO8sa {
+  background-color: transparent;
+  height: auto;
+  left: 64px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 363px;
+}
+
+.frame-10 .attractive-young-mal-mR8G8t {
+  background-color: transparent;
+  height: 584px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1714px;
+  width: 651px;
+}
+
+.frame-10 .rectangle-17-mR8G8t {
+  background-color: var(--black);
+  border-radius: 33px;
+  height: 169px;
+  left: 82px;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  position: absolute;
+  top: 2023px;
+  width: 291px;
+}
+
+.frame-10 .ellipse-2-mR8G8t {
+  background-color: #d9d9d9;
+  border-radius: 48px/45.5px;
+  height: 91px;
+  left: 180px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1990px;
+  width: 96px;
+}
+
+.frame-10 .heart-icon-2-removebg-preview-1-mR8G8t {
+  background-color: transparent;
+  height: 110px;
+  left: 166px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1981px;
+  width: 110px;
+}
+
+.frame-10 .doctor-khanna-mR8G8t {
+  background-color: transparent;
+  height: auto;
+  left: 125px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2090px;
+  width: auto;
+}
+
+.frame-10 .cardiologist-mR8G8t {
+  background-color: transparent;
+  height: auto;
+  left: 143px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2123px;
+  width: auto;
+}
+
+.frame-10 .x5-years-exp-mR8G8t {
+  background-color: transparent;
+  height: auto;
+  left: 143px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2156px;
+  width: auto;
+}
+
+.frame-10 .best-quality-service-mR8G8t {
+  background-color: transparent;
+  color: var(--tundora);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 562px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1777px;
+  width: auto;
+}
+
+.frame-10 .with-our-doctors-we-mR8G8t {
+  background-color: transparent;
+  color: var(--tundora);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 575px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1960px;
+  width: 690px;
+}
+
+.frame-10 .doctors-pana-removebg-preview-1-mR8G8t {
+  background-color: transparent;
+  height: 826px;
+  left: 736px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 307px;
+  width: 548px;
+}
+
+.frame-10 .ellipse-1 {
+  background-color: var(--jordy-blue);
+  border-radius: 59.5px/63px;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 119px;
+}
+
+.frame-10 .find-your-doctor-wit {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+}
+
+.frame-10 .group-15 {
+  background-color: transparent;
+  left: 0px;
+  position: relative;
+  top: 0px;
+}
+
+.frame-10 .icon-search {
+  background-color: transparent;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+}
+</style><script id="anime-js-script" src="./white-lake-5381.animaapp.io_files/anime.min.js.download" integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossorigin="anonymous"></script><script id="imgloaded-js-script" src="./white-lake-5381.animaapp.io_files/imagesloaded.pkgd.min.js.download"></script><style id="action-links-styles">
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+#anima-interface{
+  transition: all 0.5s ease-in-out;
+}
+
+#anima-watermark {
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+#anima-watermark-link{
+  position: fixed;
+  bottom:20px;
+  height:30px;
+  border-radius: 1000px;
+  background: #3B3B3B;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  user-select:none;
+  transition: width 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  text-decoration:none;
+  color:#fff;
+  padding:8px 16px 8px 11px;
+  font-family:Mulish, sans-serif;
+  font-size:12px;
+}
+#anima-watermark-link .text {
+  margin-left: 6px;
+}
+
+.omniview-anima-action-links .link{
+  height: 30px;
+  width: 30px;
+  border-radius: 1000px;
+  background: #3B3B3B;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  user-select:none;
+  transition: width 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  text-decoration:none;
+  color:#fff;
+}
+.omniview-anima-action-links #comment-link .text,.omniview-anima-action-links #code-link .text{
+  display:none;
+  font-size:12px;
+  margin-right:5px;
+}
+.omniview-anima-action-links #comment-link:hover,.omniview-anima-action-links #code-link:hover{
+  width:105px;
+}
+.omniview-anima-action-links #comment-link.pop-active,.omniview-anima-action-links #code-link.pop-active{
+  width:105px;
+  background: #FF6250;
+}
+.omniview-anima-action-links #comment-link.pop-active .text,.omniview-anima-action-links #code-link.pop-active .text{
+  display:block
+}
+.omniview-anima-action-links #comment-link:hover .text,.omniview-anima-action-links #code-link:hover .text{
+  display:block;
+}
+
+.link.navigation{
+  position:fixed;
+  left:50%;
+  transform:translateX(-50%);
+  width:auto;
+  height:32px;
+  color:#fff;
+  font-size:12px;
+  cursor:default;
+  padding:0 5px;
+}
+.link.navigation .icon{
+  margin:0 6px;
+  fill:none;
+  stroke:currentColor;
+  cursor:pointer;
+}
+.link.navigation .icon.disabled{
+  opacity:0.5;
+  cursor:default;
+}
+
+
+.link.navigation .home-icon{
+  margin-left:6px;
+  fill:currentColor;
+  stroke:currentColor;
+  cursor:pointer;
+}
+
+.omniview-anima-action-links .restart{
+  height: 30px;
+  padding:0 12px;
+  background: #3B3B3B;
+  border-radius: 1000px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  color:#f1f1f1;
+  font-size: 12px;
+}
+
+.omniview-anima-action-links{
+  display:flex;
+  align-items:center;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  font-family:Mulish, sans-serif;
+  transition: all 0.5s ease-in-out;
+  opacity:1;
+}
+
+.omniview-anima-action-links > * + *{
+   margin-right: 0;
+   margin-left: 10px;
+}
+
+.idle{
+  opacity:0;
+  pointer-events:none;
+}
+
+#popoverOpener {
+  position: absolute;
+  left: 50%;
+  margin-left: -10vw;
+  text-align: center;
+  top: 45vh;
+  width: 20vw;
+}
+
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  font-family: "sans-serif";
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.popover.top {
+  margin-top: -12px
+}
+
+.popover.right {
+  margin-left: 10px
+}
+
+.popover.bottom {
+  margin-top: 10px
+}
+
+.popover.left {
+  margin-left: -10px
+}
+
+.popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0
+}
+
+.popover-content {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  overflow:hidden;
+  font-family:Mulish, sans-serif;
+}
+
+
+
+.popover>.arrow,.popover>.arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid
+}
+
+.popover>.arrow {
+  border-width: 11px
+}
+
+.popover>.arrow:after {
+  content: "";
+  border-width: 10px
+}
+
+.popover.top>.arrow {
+  bottom: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-color: #999;
+  border-top-color: rgba(0,0,0,.25);
+  border-bottom-width: 0
+}
+
+.popover.top>.arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-color: #fff;
+  border-bottom-width: 0
+}
+
+.popover.right>.arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-right-color: #999;
+  border-right-color: rgba(0,0,0,.25);
+  border-left-width: 0
+}
+
+.popover.right>.arrow:after {
+  bottom: -10px;
+  left: 1px;
+  content: " ";
+  border-right-color: #fff;
+  border-left-width: 0
+}
+
+.popover.bottom>.arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0,0,0,.25)
+}
+
+.popover.bottom>.arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff
+}
+
+.popover.left>.arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0,0,0,.25)
+}
+
+.popover.left>.arrow:after {
+  right: 1px;
+  bottom: -10px;
+  content: " ";
+  border-right-width: 0;
+  border-left-color: #fff
+}
+
+
+
+#anima-comment-popover,#anima-code-popover{
+  background:#333333;
+  color:#fff;
+}
+
+#anima-comment-popover.top>.arrow,#anima-comment-popover.top>.arrow:after,#anima-code-popover.top>.arrow:after,#anima-code-popover.top>.arrow {
+  border-top-color:#333;  
+}
+
+#anima-comment-popover .btn,#anima-code-popover .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 20px;
+  background: #FF6250;
+  color:#fff;
+  border-radius: 100px;
+  width: max-content;
+  text-decoration:none;
+}
+
+@media screen and (max-width: 550px) {
+  #anima-watermark-link {
+    padding: 6px !important;
+  }
+  #anima-watermark-link .text {
+    display: none !important;
+  }
+}
+
+</style></head><body style="margin: 0;"><input type="hidden" id="anPageName" name="page" value="frame-10"><div class="container-center-horizontal"><form class="frame-10 screen " data-id="7:7" name="form6" action="https://white-lake-5381.animaapp.io/form6" method="post"><input type="text" name="trapit" value="" style="display:none;"><div class="nav-mR8G8t" data-id="7:9"><a href="javascript:SubmitForm(&#39;form6&#39;)"><div class="group-1-981o01 smart-layers-pointers" data-id="7:11"><div class="healthcare-D2GPhm smart-layers-pointers" data-id="7:13">HEALTHCARE</div></div></a><div class="group-2-981o01" data-id="7:14"><a href="javascript:SubmitForm(&#39;form6&#39;)"><div class="home-JUy3Zc smart-layers-pointers inter-normal-picton-blue-30px" data-id="7:15">HOME</div></a><a href="javascript:SubmitForm(&#39;form6&#39;)"><div class="aboutus-JUy3Zc smart-layers-pointers inter-normal-picton-blue-30px" data-id="7:16">ABOUTUS</div></a><a href="javascript:SubmitForm(&#39;form6&#39;)"><div class="contactus-JUy3Zc smart-layers-pointers inter-normal-picton-blue-30px" data-id="7:17">CONTACTUS</div></a><a href="javascript:SubmitForm(&#39;form6&#39;)"><div class="group-3-JUy3Zc smart-layers-pointers animate-enter" data-id="7:18"><div class="rectangle-9-kO7mag" data-id="7:19"></div><div class="get-started-kO7mag" data-id="7:20">GET STARTED</div></div></a></div></div><div class="banner-mR8G8t" data-id="7:22"><div class="group-4-xkK0Rp" data-id="7:23"><div class="text-A3hgcW" data-id="7:24"><p class="join-us-and-take-car-ElisHT" data-id="7:25">Join us and take care of yourself and your family with health services that will make you feel confident and safe.</p><h1 class="find-and-search-your-suitable-doctors-ElisHT" data-id="7:26"><span class="span0-U3gdXF">Find and Search Your<br></span><span class="span1-U3gdXF">Suitable Doctor’s</span></h1></div></div><div class="group-9-xkK0Rp" data-id="7:27"><div class="form-background-Vay97N" data-id="7:28"></div><div class="group-6-Vay97N" data-id="7:29"><a href="javascript:SubmitForm(&#39;form6&#39;)"><div class="group-11-0m4nRL animate-enter1" data-id="7:30"><div class="rectangle-15-cIjRO4" data-id="7:31"></div><img class="icon-search-cIjRO4 icon-search" data-id="7:32" src="./white-lake-5381.animaapp.io_files/outline-search-white-24dp-1@2x.png" anima-src="https://cdn.animaapp.com/projects/646df9c772436b1279655ddb/releases/646e0371a6a5e497ee8a9120/img/outline-search-white-24dp-1@2x.png" alt="icon-search"></div></a><div class="rectangle-13-0m4nRL" data-id="7:33"></div><input class="find-your-doctor-0m4nRL" data-id="7:34" name="findyourdoctor" placeholder="Find Your Doctor" type="text"></div><div class="group-7-Vay97N" data-id="7:35"><div class="rectangle-14-9Ft513" data-id="7:36"></div><input class="select-area-9Ft513" data-id="7:37" name="selectarea" placeholder="Select Area " type="text"></div></div></div><p class="x3-easy-steps-and-get-your-solution-mR8G8t" data-id="7:38">3 Easy Steps and Get Your Solution</p><div class="group-12-mR8G8t smart-layers-pointers" data-id="7:39"><div class="group-13-E9jEuu" data-id="7:40"><p class="find-your-doctor-wit-sh3S5J find-your-doctor-wit inter-normal-black-22px" data-id="7:41">Find your doctor with minimum <br>effort .We’ve&nbsp;&nbsp;kept everything <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;organised for you.</p><div class="find-best-doctors-sh3S5J inter-normal-black-35px" data-id="7:42">Find Best Doctor’s</div></div><div class="group-14-E9jEuu" data-id="7:43"><div class="ellipse-1" data-id="7:44"></div><img class="icon-search-xcDx8v icon-search" data-id="7:45" src="./white-lake-5381.animaapp.io_files/outline-search-white-24dp-2@2x.png" anima-src="https://cdn.animaapp.com/projects/646df9c772436b1279655ddb/releases/646dfb7e7d58e5ef1f15a62c/img/outline-search-white-24dp-2@2x.png" alt="icon-search"></div></div><div class="group-16-mR8G8t smart-layers-pointers" data-id="7:49"><div class="ellipse-1" data-id="7:50"></div><img class="icon-search-hqxO7x icon-search" data-id="7:51" src="./white-lake-5381.animaapp.io_files/outline-search-white-24dp-2@2x.png" anima-src="https://cdn.animaapp.com/projects/646df9c772436b1279655ddb/releases/646dfb7e7d58e5ef1f15a62c/img/outline-search-white-24dp-2@2x.png" alt="icon-search"></div><div class="group-13-mR8G8t smart-layers-pointers" data-id="7:52"><div class="group-15-nZ4bAn group-15" data-id="7:53"><div class="group-13-Rd6GjL" data-id="7:54"><p class="find-your-doctor-wit-lCWl3L find-your-doctor-wit inter-normal-black-22px" data-id="7:55">Find your doctor with minimum effort .We’ve&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kept everything organised for you.</p><div class="get-appointment-lCWl3L inter-normal-black-35px" data-id="7:56">Get Appointment</div></div><div class="group-14-Rd6GjL smart-layers-pointers" data-id="7:57"><div class="group-14-LExJ47 smart-layers-pointers" data-id="7:58"><div class="ellipse-1" data-id="7:59"></div><img class="icon-calendar-sQRhCZ" data-id="7:60" src="./white-lake-5381.animaapp.io_files/outline-event-white-24dp-1@2x.png" anima-src="https://cdn.animaapp.com/projects/646df9c772436b1279655ddb/releases/646dfb7e7d58e5ef1f15a62c/img/outline-event-white-24dp-1@2x.png" alt="icon-calendar"></div></div></div></div><div class="group-14-mR8G8t smart-layers-pointers" data-id="7:61"><div class="group-15-uDA1GG group-15" data-id="7:62"><div class="group-13-H9OIzq" data-id="7:63"><p class="find-your-doctor-wit-rNO8sa find-your-doctor-wit inter-normal-black-22px" data-id="7:64">Find your doctor with minimum effort .<br>We’ve&nbsp;&nbsp;kept everything organised for <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you.</p><div class="happy-consulting-rNO8sa inter-normal-black-35px" data-id="7:65">Happy Consulting</div></div></div></div><img class="attractive-young-mal-mR8G8t" data-id="7:67" src="./white-lake-5381.animaapp.io_files/attractive-young-male-nutriologist-lab-coat-smiling-against-whit.png" anima-src="https://cdn.animaapp.com/projects/646df9c772436b1279655ddb/releases/646e0371a6a5e497ee8a9120/img/attractive-young-male-nutriologist-lab-coat-smiling-against-whit.png" alt="attractive-young-male-nutriologist-lab-coat-smiling-against-white-background_662251-2960-removebg-preview 1"><div class="rectangle-17-mR8G8t" data-id="7:68"></div><div class="ellipse-2-mR8G8t" data-id="7:69"></div><img class="heart-icon-2-removebg-preview-1-mR8G8t" data-id="7:70" src="./white-lake-5381.animaapp.io_files/heart-icon-2-removebg-preview-1@2x.png" anima-src="https://cdn.animaapp.com/projects/646df9c772436b1279655ddb/releases/646dfb7e7d58e5ef1f15a62c/img/heart-icon-2-removebg-preview-1@2x.png" alt="heart-icon-2-removebg-preview 1"><div class="doctor-khanna-mR8G8t inter-normal-tundora-27px" data-id="7:71">Doctor Khanna</div><div class="cardiologist-mR8G8t inter-normal-tundora-27px" data-id="7:72">Cardiologist</div><div class="x5-years-exp-mR8G8t inter-normal-tundora-27px" data-id="7:73">5 Years Exp.</div><p class="best-quality-service-mR8G8t" data-id="7:74">Best quality&nbsp;&nbsp;service with <br>our experienced Doctors</p><p class="with-our-doctors-we-mR8G8t" data-id="7:75">With our Doctors we are able to provide best quality<br>Medical&nbsp;&nbsp;services above average .We have highly experienced doctors , so don’t worry</p><img class="doctors-pana-removebg-preview-1-mR8G8t" data-id="7:76" src="./white-lake-5381.animaapp.io_files/doctors-pana-removebg-preview-1.png" anima-src="https://cdn.animaapp.com/projects/646df9c772436b1279655ddb/releases/6471b692d63efdfc869c13b4/img/doctors-pana-removebg-preview-1.png" alt="Doctors-pana-removebg-preview 1"></form></div><script src="./white-lake-5381.animaapp.io_files/launchpad-banner.js.download" async=""></script><script defer="" src="./white-lake-5381.animaapp.io_files/restart-btn.min.js.download"></script><script>function ShowOnScroll() {
+    this.toShow = [];
+    this.nextEventY = undefined;
+}
+
+ShowOnScroll.prototype.show = function(e) {
+    e.style.display = "";
+};
+
+ShowOnScroll.prototype.hide = function(e) {
+    e.style.display = "none";
+};
+
+ShowOnScroll.prototype.getTop = function(e) {
+    if (e.Top != undefined && e.Top != 0) {
+        return e.Top;
+    }
+    var top = 0;
+    var iter = e;
+    do {
+        top += iter.offsetTop || 0;
+        iter = iter.offsetParent;
+    } while (iter);
+    e.Top = top;
+    return top;
+};
+
+ShowOnScroll.prototype.onScroll = function() {
+    var screenBottom = window.pageYOffset + window.innerHeight;
+    if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+        return;
+    }
+    this.nextEventY = undefined;
+    for (var i = 0; i < this.toShow.length; i++) {
+        var e = this.toShow[i];
+        var top = this.getTop(e);
+        if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+        } else {
+            this.nextEventY = top;
+            break;
+        }
+    }
+};
+
+ShowOnScroll.prototype.resetScrolling = function() {
+    // Clear state
+    var screenBottom = window.pageYOffset + window.innerHeight;
+    for (var i = 0; i < this.toShow.length; i++) {
+        var e = this.toShow[i];
+        this.show(e);
+    }
+    this.toShow = [];
+    this.nextEventY == undefined;
+
+    // Collect items
+    var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+    itemsToShowOnScroll = itemsToShowOnScroll.filter(function(e) { return e.getAttribute("show-on-scroll") != undefined });
+    var getTop = this.getTop;
+    itemsToShowOnScroll.sort(function(a, b) {
+        return getTop(a) - getTop(b);
+    });
+    for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+        var e = itemsToShowOnScroll[i];
+        var top = this.getTop(e);
+        if (top < screenBottom) {
+            continue;
+        }
+        this.toShow.push(e);
+        this.hide(e);
+        this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+    }
+};
+
+ShowOnScroll.prototype.handleEvent = function(e) {
+    switch (e.type) {
+        case "scroll":
+            this.onScroll();
+            break;
+        case "resize":
+            this.resetScrolling();
+            break;
+    }
+};
+
+ShowOnScroll.prototype.init = function() {
+    this.resetScrolling();
+    window.addEventListener("scroll", this);
+    window.addEventListener("resize", this);
+};
+
+// After anima-src
+setTimeout(function() {
+    var instShowOnScroll = new ShowOnScroll();
+    instShowOnScroll.init();
+}, 250);</script><script>/* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+if (!HTMLFormElement.prototype.reportValidity) {
+    HTMLFormElement.prototype.reportValidity = function () {
+        if (this.checkValidity()) return true;
+        var btn = document.createElement('button');
+        this.appendChild(btn);
+        btn.click();
+        this.removeChild(btn);
+        return false;
+    };
+}
+
+function SubmitForm(form_name) {
+    var form = document.getElementsByName(form_name)[0];
+    if (form.reportValidity()) {
+        form.submit();
+        if (window.submitted) window.submitted();
+    }
+}</script><div id="t_preload_links"></div><div id="anima-interface" data-turbo-permanent="true" class="idle"><!---->
+        <div id="anima-comment-popover" class="popover top" role="tooltip" style="left: -205px; top: -220px;">
+          <div class="arrow" style="margin-left: 128px;"></div>
+          <div class="popover-content" style="align-items:center">
+            <div style="display:flex;flex-direction:column;height: 100%;padding: 20px;">
+              <h3 style="font-size:18px;margin-bottom:10px;font-weight:500;line-height: 26px;font-family: Roslindale;">
+                Leave feedback and collaborate
+              </h3>
+              <p style="font-size:12px;margin-bottom:20px;font-weight:400;line-height: 20px;">
+                Login to your account to leave comments. Don't have an account? Sign up for free!
+              </p>
+              <a target="_blank" rel="noopener noreferrer" class="btn" href="https://projects.animaapp.com/p/undefined/s/?mode=comments&amp;utm_campaign=add-comment&amp;utm_medium=add-comment&amp;utm_source=animaapp.io">Add comment</a>
+            </div>
+
+            <div style="display:flex;align-items:center;justify-content:center;padding-right:20px">
+              <img src="./white-lake-5381.animaapp.io_files/comment-illustration.svg">
+            </div>
+          </div>
+        </div>
+        <div id="anima-code-popover" class="popover top" role="tooltip" style="left: -205px; top: -220px;">
+          <div class="arrow" style="margin-left: 168px;"></div>
+          <div class="popover-content" style="align-items:center">
+            <div style="display:flex;flex-direction:column;height: 100%;padding: 20px;">
+              <h3 style="font-size:18px;margin-bottom:10px;font-weight:500;line-height: 26px;font-family: Roslindale;">
+                Get clean code you’ll love with Anima
+              </h3>
+              <p style="font-size:12px;margin-bottom:20px;font-weight:400;line-height: 20px;">
+                Login and easily export HTML, React or Vue of this prototype.
+                Don’t have an account? Sign up for free!
+              </p>
+              <a target="_blank" rel="noopener noreferrer" class="btn" href="https://projects.animaapp.com/p/undefined/s/?mode=code&amp;utm_campaign=get-code&amp;utm_medium=get-code&amp;utm_source=animaapp.io">
+                Get code
+              </a>
+            </div>
+
+            <img src="./white-lake-5381.animaapp.io_files/code-illustration.svg">
+          </div>
+        </div>
+        <div class="omniview-anima-action-links" id="actions-wrap">
+          <div class="omniview-anima-action-links">
+            <div id="page-nav" class="link navigation" style="display: none;">
+              <svg id="homepage-icon" class="home-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.151 11a.25.25 0 01-.167-.436l4.349-3.913a.25.25 0 01.334 0l4.349 3.913a.25.25 0 01-.167.436H8.15zM16 12H9v4a1 1 0 001 1h5a1 1 0 001-1v-4z" fill="#fff"></path>
+              </svg>
+
+              <svg class="icon" id="arrow-left" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 18l-6-6 6-6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+
+              <span id="page-num"></span>
+
+              <svg class="icon" id="arrow-right" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+
+            <a class="link" id="comment-link" target="_blank" style="display: none;">
+              <span class="text">Comment</span>
+              <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.301 15.137a.551.551 0 01.199-.55c.314-.23.554-.554.718-.965A6.015 6.015 0 014 10 6.006 6.006 0   0110.001 4 6.006 6.006 0 0116 10.001 6.006 6.006 0 019.999 16a5.98 5.98 0 01-3.095-.86 3.165 3.165 0 01-1.65.438 3.6  3.6 0 01-.57-.044c-.191-.03-.34-.186-.383-.397z" fill="#fff"></path>
+              </svg>
+            </a>
+
+            <a class="link" id="code-link" target="_blank" style="display: none;">
+              <span class="text">Get Code</span>
+              <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 15.667a1 1 0 01-.707-1.708l3.626-3.625-3.626-3.626a1 1 0 111.415-1.415l4.333 4.333a1 1 0 010 1.414l-4.333 4.333a.993.993 0 01-.707.294zM7.333 5a1 1 0 01.707 1.708l-3.626 3.625 3.627 3.626a1 1 0 11-1.415 1.415L2.293 11.04a1 1 0 010-1.415l4.333-4.333A.992.992 0 017.333 5z" fill="#fff"></path>
+              </svg>
+            </a>
+
+            <div class="restart" id="restart-btn" style="display: none;">
+              <svg style="margin-right: 6px" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 11.817A5.017 5.017 0 01.994 6.811c0-.207.169-.375.375-.375s.375.168.375.375A4.265 4.265 0 006 11.067a4.265 4.265 0 004.256-4.256A4.265 4.265 0 006 2.555a.376.376 0 01-.375-.376c0-.206.169-.374.375-.374a5.017 5.017 0 015.006 5.006A5.017 5.017 0 016 11.817z" fill="#fff"></path>
+                <path d="M6.75 4.237a.37.37 0 01-.263-.112l-1.65-1.65a.363.363 0 010-.525L6.487.3c.15-.15.375-.15.525 0 .15.15.15.375 0 .525L5.625 2.212 7.012 3.6c.15.15.15.375 0 .525-.056.075-.15.112-.262.112z" fill="#fff"></path>
+              </svg>
+              Restart
+            </div>
+          </div>
+        </div>
+      <!----></div><div id="anima-watermark" style="display: none;" class="idle"><!----><a id="anima-watermark-link" target="_blank" href="https://www.animaapp.com/?utm_campaign=public-link-banner&amp;utm_medium=public-link-banner&amp;utm_source=animaapp.io" style="right: 20px; left: auto; padding: 6px;">
+        <svg width="20" height="20" viewBox="0 0 20 20" id="anima-logo-icon" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.09293 3.00001H16.5327C16.5484 2.99976 16.5638 3.00351 16.5776 3.01092C16.5913 3.01832 16.603 3.02913 16.6114 3.04231C16.6198 3.0555 16.6247 3.07061 16.6256 3.08622C16.6265 3.10182 16.6233 3.1174 16.6165 3.13146C15.5441 5.29706 13.9276 7.14699 11.9253 8.50009C8.69117 10.6822 5.43436 10.9075 4.09389 10.9196C4.08165 10.9198 4.06949 10.9176 4.05811 10.9131C4.04672 10.9086 4.03636 10.9019 4.02761 10.8933C4.01887 10.8848 4.01192 10.8745 4.00718 10.8633C4.00244 10.852 4 10.8399 4 10.8276V3.09198C4 3.07982 4.00241 3.06778 4.00709 3.05656C4.01177 3.04534 4.01863 3.03516 4.02728 3.02661C4.03592 3.01805 4.04617 3.0113 4.05744 3.00673C4.06871 3.00217 4.08077 2.99988 4.09293 3.00001Z" fill="#FF6250"></path>
+          <path d="M6.77772 17.4446C8.31182 17.4446 9.55545 16.201 9.55545 14.6669C9.55545 13.1328 8.31182 11.8892 6.77772 11.8892C5.24363 11.8892 4 13.1328 4 14.6669C4 16.201 5.24363 17.4446 6.77772 17.4446Z" fill="#FFDF90"></path>
+          <path d="M12.4559 17.2799C11.6701 16.9799 11.2522 16.1151 11.5185 15.3496L13.6153 9.3656C13.884 8.60003 14.7387 8.22302 15.5245 8.52299C16.3103 8.82344 16.7282 9.68772 16.4619 10.4538L14.365 16.4377C14.0964 17.2033 13.2417 17.5808 12.4559 17.2799Z" fill="#3366FF"></path>
+        </svg>
+        <span class="text" style="display: none;">Made with Anima</span>
+      </a><!----></div></body></html>
